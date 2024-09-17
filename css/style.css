@@ -1,0 +1,265 @@
+/* 
+CORES
+#639fab - Moonstone
+#ffffff - White
+#222222 - Eerie Black 
+
+FONTES
+- Comfortaa
+- Better Together Script
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    unicode-bidi: isolate;
+}
+
+header {
+    font-family: Comfortaa, sans-serif;
+    height: 450px;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    color: white;
+    background-image: url(../img/banner-home.png);
+    background-size: cover;
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    display: flex;
+    align-items: baseline;
+}
+
+.texto-menu {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    margin-right: 30px;
+    text-align: right;
+    font: inherit;
+}
+
+.texto-menu:hover {
+    text-decoration: solid;
+    font-weight: 900;
+    background-color: #639fab;
+}
+
+.banner-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-menu {
+    height: 320px;
+    align-items: center;
+    padding-left: 90px;
+    padding-top: 30px;
+}
+
+.texto-prazer {
+    font-family: Comfortaa, sans-serif;
+    align-items: center;
+    display: flex;
+    font-size: 70px;
+    padding-top: 80px;
+    padding-right: 130px;
+}
+
+.texto-mariana {
+    font-family: Better Together Script;
+    margin: 20px;
+    font-size: 100px;
+}
+
+.sobre {
+    font-family: Comfortaa, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+    padding: 60px 40px;
+    background-color: #222222;
+}
+
+.titulo-sobre {
+    font-size: 35px;
+    font-weight: 900;
+    text-align: left;
+    padding-left: 52px;
+    padding-top: 30px;
+}
+
+.texto-sobre {
+    padding-top: 30px;
+    width: 480px;
+    font-size: 23px;
+    text-align: left;
+    font-weight: 50;
+    padding-left: 20px;
+}
+
+.button-mais {
+    height: 80px;
+    align-items: baseline;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+.button-mais:hover {
+    text-shadow: #222222;
+}
+
+.imagem-mari {
+    width: 650px;
+    height: 500px;
+    background-image: url(../img/fotos-mari/IMG_0391_VSCO.JPG);
+    background-position: 20%;
+    background-size: cover;
+    border-radius: 50px;
+}
+
+.titulo-portifolio {
+    font-family: Comfortaa, sans-serif;
+    color: #ffffff;
+    font-size: 35px;
+    font-weight: 900;
+    text-align: center;
+    padding-left: 40px;
+    padding-top: 90px;
+}
+
+p {
+    color: #ffffff;
+    font-family: Comfortaa;
+    font-size: 16px;
+    text-align: center;
+}
+
+.container-portifolio {
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    padding-left: 15px;
+}
+
+.button-ver-mais-port{
+    border-radius: 100%;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    background-color: #222222;
+    color: #ffffff;
+}
+
+.image-wrapper {
+    position: relative;
+    display: inline-block;
+}
+
+.image-wrapper img {
+    display: block;
+    height: 300px;
+}
+
+.description {
+    font-family: Comfortaa;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #222222;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    box-sizing: border-box;
+}
+
+.image-wrapper:hover {
+    background-color: #222222;
+    opacity: 0.9;
+}
+
+.image-wrapper:hover .description {
+    opacity: 1;
+}
+
+.button-opiniao {
+    padding-top: 60px;
+    padding-bottom: 70px;
+}
+
+.opiniao {
+    align-items: center;
+    width: 480px;
+    border-radius: 40px;
+    padding: 20px;
+    background-color: #ffffff;
+    color: #222222;
+    font-family: Comfortaa;
+    font-size: 20px;
+}
+
+footer {
+    height: 200px;
+    font-family: Comfortaa, sans-serif;
+    color: #ffffff;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    background-image: linear-gradient(#222222, black);
+    text-decoration: none;
+}
+
+.menu-rodape {
+    display: flex;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.logo-rodape {
+    height: 96px;
+    padding-right: 320px;
+    align-items: center;
+    padding-top: 10px;
+    padding-left: 70px;
+}
+
+.buttons-rodape {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 20px;
+    padding-top: 30px;
+}
+
+.buttons-rodape:hover {
+    text-decoration: solid;
+    font-weight: 900;
+    background-color: #639fab;
+}
+
+.redes-sociais {
+    padding-left: 290px;
+}
+
+.icons-redessociais {
+    height: 38px;
+    display: block;
+    justify-content: space-between;
+    padding: 5px;
+}

@@ -1,0 +1,249 @@
+ body {
+     margin: 0;
+     padding: 0;
+ }
+
+ header {
+     height: 120px;
+     font-family: Comfortaa;
+     display: flex;
+     justify-content: space-between;
+     text-align: center;
+     background-image: url(../img/banner-home.png);
+     background-size: cover;
+     text-decoration: none;
+ }
+
+ li {
+     list-style: none;
+ }
+
+ ul {
+     display: flex;
+     align-items: center;
+ }
+
+ .menu {
+     display: flex;
+     padding: 5px;
+     align-items: center;
+     padding-top: 10px;
+ }
+
+ .buttons-menu {
+     display: flex;
+     justify-content: space-between;
+     text-decoration: none;
+     color: #ffffff;
+     padding: 20px;
+
+ }
+
+ .buttons-menu:hover {
+     text-decoration: solid;
+     font-weight: 900;
+     background-color: #639fab;
+ }
+
+ .logo-menu {
+     height: 88px;
+     padding-right: 670px;
+     align-items: center;
+     padding-top: 10px;
+     padding-left: 30px;
+ }
+
+ footer {
+     height: 200px;
+     font-family: Comfortaa, sans-serif;
+     color: #ffffff;
+     align-items: center;
+     display: flex;
+     justify-content: space-between;
+     background-image: linear-gradient(#222222, black);
+     text-decoration: none;
+ }
+
+ .menu-rodape {
+     display: flex;
+     color: #ffffff;
+     text-decoration: none;
+ }
+
+ .logo-rodape {
+     height: 96px;
+     padding-right: 320px;
+     align-items: center;
+     padding-top: 10px;
+     padding-left: 70px;
+ }
+
+ .buttons-rodape {
+     display: flex;
+     justify-content: space-between;
+     text-decoration: none;
+     color: #ffffff;
+     padding: 20px;
+     padding-top: 30px;
+ }
+
+ .buttons-rodape:hover {
+     text-decoration: solid;
+     font-weight: 900;
+     background-color: #639fab;
+ }
+
+ .redes-sociais {
+     padding-left: 290px;
+ }
+
+ .icons-redessociais {
+     height: 38px;
+     display: block;
+     justify-content: space-between;
+     padding: 5px;
+ }
+
+ .sobre {
+     background-color: #222222;
+     color: #ffffff;
+     font-family: Comfortaa;
+     align-items: center;
+     padding-top: 178px;
+     background-image: url(../img/fundo-sobre.png);
+     background-size: cover;
+ }
+
+ .container {
+     display: flex;
+     justify-content: space-around;
+ }
+
+ .titulo-sobre {
+     font-weight: 900;
+     text-align: center;
+     padding-bottom: 20px;
+ }
+
+ .texto-sobre {
+     width: 880px;
+     padding-top: 50px;
+     padding-right: 100px;
+     font-size: 18px;
+ }
+
+ .gallery {
+     width: 1200px;
+     display: grid;
+     grid-template-columns: repeat(8, 1fr);
+     /* grid-template-rows: repeat(8, 5vw); */
+     grid-gap: 1.5rem;
+ }
+
+ .gallery__img {
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+     display: block;
+ }
+
+ .gallery__item--1 {
+     grid-column-start: 1;
+     grid-column-end: 3;
+     grid-row-start: 1;
+     grid-row-end: 3;
+ }
+
+ .gallery__item--2 {
+     grid-column-start: 3;
+     grid-column-end: 5;
+     grid-row-start: 1;
+     grid-row-end: 3;
+ }
+
+ .gallery__item--3 {
+     grid-column-start: 5;
+     grid-column-end: 9;
+     grid-row-start: 1;
+     grid-row-end: 6;
+ }
+
+ .gallery__item--4 {
+     grid-column-start: 1;
+     grid-column-end: 5;
+     grid-row-start: 3;
+     grid-row-end: 6;
+ }
+
+ .texto-baixo {
+     display: block;
+     margin-top: 20px;
+     font-size: 18px;
+ }
+
+ .cards {
+     display: flex;
+     justify-content: space-between;
+     padding-left: 360px;
+     padding-right: 360px;
+     padding-top: 40px;
+     padding-bottom: 100px;
+ }
+
+ .card1 {
+     width: 155px;
+     height: 225px;
+     background-image: url(../img/card1.png);
+     background-position: 20%;
+     background-size: cover;
+     border-radius: 50px;
+ }
+
+ .card1:hover {
+     width: 165px;
+     height: 235px;
+ }
+
+ .card2 {
+     width: 155px;
+     height: 225px;
+     background-image: url(../img/card2.png);
+     background-position: 20%;
+     background-size: cover;
+     border-radius: 50px;
+ }
+
+ .card2:hover {
+     width: 165px;
+     height: 235px;
+ }
+
+ .card3 {
+     width: 155px;
+     height: 225px;
+     background-image: url(../img/card3.png);
+     background-position: 20%;
+     background-size: cover;
+     border-radius: 50px;
+ }
+
+ .card3:hover {
+     width: 165px;
+     height: 235px;
+ }
+
+ .button-ver-port {
+     align-items: center;
+     padding-bottom: 100px;
+     text-decoration: none;
+     text-align: center;
+ }
+
+ .btn-portifolio {
+     width: 300px;
+     padding: 10px;
+     align-items: center;
+     border-radius: 20px;
+     background-color: #639fab;
+     color: #ffffff;
+ }
